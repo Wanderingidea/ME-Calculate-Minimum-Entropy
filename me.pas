@@ -23,7 +23,7 @@ end;
 
 function log (n : extended) : extended;
 begin
-	log := ln(n)/ln(10);
+	log := ln(n) / ln(10);
 end;
 
 begin
