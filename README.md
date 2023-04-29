@@ -6,6 +6,6 @@ me.pas compiles cleanly with Freepascal under Linux x86_64 and armv7l cpu archit
 
 Sample output:
 
-me < test.bin
+`me < test.bin`
 
 minimum entropy: 1.00 bits per bit
