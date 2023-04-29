@@ -21,9 +21,9 @@ begin
     	end;
 end;
 
-function log (n : extended) : extended;
+function Log (n : extended) : extended;
 begin
-	log := ln(n) / ln(10);
+	Log := ln(n) / ln(10);
 end;
 
 begin
@@ -46,6 +46,6 @@ begin
     	totb := totb * 8;
     	zeroes := totb - ones;
     	if ones >= zeroes then g := ones else g := zeroes;
-        me := -log((g/totb))/log(2);
+        me := -Log((g/totb))/Log(2);
     	writeln('minimum entropy: ', FormatFloat('0.00', me), ' bits per bit');
 end.
