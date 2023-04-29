@@ -4,6 +4,8 @@ The purpose of this program is to calculate the minimum entropy of a file (as op
 
 It compiles cleanly with Freepascal under Linux x86_64 and armv7l cpu architectures.
 
-Sample output:<b>
-me < test.bin<b>
+Sample output:
+
+me < test.bin
+
 minimum entropy: 1.00 bits per bit
