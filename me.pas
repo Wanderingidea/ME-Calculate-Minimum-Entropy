@@ -11,7 +11,7 @@ var b : Char;
 	totb, ones, zeroes, g : Int64;
 	me : extended;
 
-function SparseBitCount(b: Byte): Int64;
+function SparseBitCount(b: Byte): Byte;
 begin
 	Result := 0;
     	while b <> 0 do
