@@ -8,4 +8,4 @@ Sample output:
 
 `me < test.bin`
 
-minimum entropy: 1.00 bits per bit
+minimum entropy: 0.99879457 bits per bit
