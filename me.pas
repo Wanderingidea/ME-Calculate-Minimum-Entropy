@@ -57,5 +57,5 @@ begin
     	zeroes := totb - ones;
     	if ones >= zeroes then g := ones else g := zeroes;
         me := -Log((g/totb))/Log(2);
-    	writeln('minimum entropy: ', FormatFloat('0.00', me), ' bits per bit');
+    	writeln('minimum entropy: ', FormatFloat('0.00000000', me), ' bits per bit');
 end.
