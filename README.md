@@ -9,3 +9,6 @@ Sample output:
 `me < test.bin`
 
 minimum entropy: 0.99879457 bits per bit
+
+### Sources:
+https://www.freepascal.org/
